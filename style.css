@@ -1,0 +1,46 @@
+#calc{
+    background-color: rgb(54, 54, 54);
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    width: 430px;
+    /* height:545px; */
+    margin:auto;
+    padding:10px;
+    border-radius: 10px;
+    gap: 10px;
+    
+}
+#answer{
+    background-color: rgb(61, 60, 60);
+    font-size: 85px;
+    overflow-y:hidden;
+    overflow-x: auto;
+    color: white;
+    grid-column: 1/5;
+}
+
+.buttons{
+    border: 1px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:50px;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: rgb(90, 89, 89);
+    color:white;
+}
+
+.buttons:active{
+    background-color: rgb(73, 73, 73);
+}
+
+#backspace{
+    border-radius: 30%;
+    width:300px;
+    grid-column: 2/4;
+}
+
+
+
+
