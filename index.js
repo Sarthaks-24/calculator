@@ -21,5 +21,5 @@ function calculate(){
 
 function cleard(){
     value ="";
-    answer.textContent= 0;
+    answer.textContent= "";
 }
